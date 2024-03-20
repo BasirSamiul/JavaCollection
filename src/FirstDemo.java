@@ -17,9 +17,11 @@ public class FirstDemo {
 //			System.out.println(words.get(i));
 //		}
 //		
-		System.out.println(words.contains("Dog"));
+//		System.out.println(words.contains("Dog"));
+//		
+//		System.out.println(words.contains("Apple"));
 		
-		System.out.println(words.contains("Apple"));
+		System.out.println(words.indexOf("Bannana"));
 
 	}
 
