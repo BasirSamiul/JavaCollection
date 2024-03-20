@@ -7,6 +7,8 @@ public class FirstDemo {
 		List<String> words = List.of("Apple", "Bannana", "Graps");
 		
 		System.out.println(words);
+		
+		System.out.println(words.size());
 
 	}
 
