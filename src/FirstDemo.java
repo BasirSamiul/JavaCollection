@@ -4,7 +4,7 @@ public class FirstDemo {
 
 	public static void main(String[] args) {
 		
-		List<String> words = List.of("Apple", "Bannana", "Graps");
+//		List<String> words = List.of("Apple", "Bannana", "Graps");
 		
 //		List<String> words = List.of();		
 //		System.out.println(words);
@@ -21,7 +21,9 @@ public class FirstDemo {
 //		
 //		System.out.println(words.contains("Apple"));
 		
-		System.out.println(words.indexOf("Bannana"));
+//		System.out.println(words.indexOf("Bannana"));
+		
+		
 
 	}
 
