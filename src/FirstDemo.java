@@ -6,9 +6,12 @@ public class FirstDemo {
 		
 		List<String> words = List.of("Apple", "Bannana", "Graps");
 		
+//		List<String> words = List.of();		
 		System.out.println(words);
 		
 		System.out.println(words.size());
+		
+		System.out.println(words.isEmpty());
 
 	}
 
