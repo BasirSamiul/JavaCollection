@@ -7,11 +7,19 @@ public class FirstDemo {
 		List<String> words = List.of("Apple", "Bannana", "Graps");
 		
 //		List<String> words = List.of();		
-		System.out.println(words);
+//		System.out.println(words);
+//		
+//		System.out.println(words.size());
+//		
+//		System.out.println(words.isEmpty());
 		
-		System.out.println(words.size());
+//		for(int i = 0; i<= words.size(); i++) {
+//			System.out.println(words.get(i));
+//		}
+//		
+		System.out.println(words.contains("Dog"));
 		
-		System.out.println(words.isEmpty());
+		System.out.println(words.contains("Apple"));
 
 	}
 
