@@ -11,6 +11,16 @@ public class List_Two {
 		
 		objArrayList.add(2, "Cocacola");
 		
+		List<String> newList = List.of("Gulab Jamun", "Naspati");
+		
+		objArrayList.addAll(newList);
+		
+//		objArrayList.remove(3);
+		
+//		objArrayList.remove("Apple");
+		
+		objArrayList.set(3, "Coral Fish");
+		
 		System.out.println(objArrayList);
 		
 
